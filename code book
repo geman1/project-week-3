@@ -14,7 +14,7 @@ measurements from the accelerometer and gyroscope
 activity label
 identifier of the subject
 Getting and cleaning data
-If the data is not already available in the data directory, it is downloaded from UCI repository.
+The data must be available in the data directory.
 
 The first step of the preprocessing is to merge the training and test sets. Two sets combined, there are 10,299 instances where each instance contains 561 features (560 measurements and subject identifier). After the merge operation the resulting data, the table contains 562 columns (560 measurements, subject identifier and activity label).
 
